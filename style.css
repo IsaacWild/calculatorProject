@@ -1,26 +1,91 @@
 body{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
+font-family: 'Roboto', sans-serif;
+color: white;
+background: #607744;
 }
+
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 300%;
+padding: 5%;
 }
+
 .displayWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid thin;
+display: flex;
+align-items: center;
+justify-content: center;
+/*   border: solid red; */
 }
+
 .display{
-    border: dashed red thin;
+/*   border: dashed red thin; */
+display: flex;
+height: 3rem;
+width: 70%;
+font-size: 200%;
+align-items: center;
+justify-content: center;
+background: #768948;
+box-shadow: 5px 8px 10px #536232;
+border-radius: 10rem;
 }
+
+.button{
+border-radius: 0.8em;
+border: none;
+font-size: 150%;
+height: 2em;
+width: 2em;
+background: #B39C4D;
+color: white;
+transition: all 0.3s ease 0s;
+}
+
+.botton:hover{
+background-color:#726331;
+transform: translateY(-7px);
+}
+
+#equalsButton{
+width: 4em;
+}
+
 .buttonWrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 5%;
+/*   border: green solid;*/
+gap: 5%;
+}
+
+.numberButtons{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.2em;
+padding: 2%;
+border-radius: 8%;
+background: #768948;
+box-shadow: 5px 8px 10px #536232;
+/*   border: solid pink; */
+}
+
+.operatorButtons{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.2em;
+padding: 2%;
+border-radius: 8%;
+background: #768948;
+box-shadow: 5px 8px 10px #536232;
+/*   border: solid goldenrod; */
 }

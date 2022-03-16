@@ -235,7 +235,7 @@ function calc() {
     num2 = parseFloat(display.textContent)
     if(num1 !== null || operator !== null || num2 !==null){
         operate(num1,operator,num2);
-        if(sum = Infinity){
+        if(sum == Infinity){
             display.textContent = "Very funny! Go do some real maths";
         }else
         display.textContent = sum;
@@ -250,7 +250,7 @@ function calc() {
 function chainCalc() {
     num2 = parseFloat(display.textContent)
     operate(num1,operator,num2);
-    if(sum = Infinity){
+    if(sum == Infinity){
         display.textContent = "Very funny! Go do some real maths";
     }else
     display.textContent = sum;

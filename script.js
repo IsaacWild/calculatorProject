@@ -236,7 +236,7 @@ function calc() {
     if(num1 !== null || operator !== null || num2 !==null){
         operate(num1,operator,num2);
         if(sum == Infinity){
-            display.textContent = "Very funny! Go do some real maths";
+            display.textContent = "∞ is not a real number!";
         }else
         display.textContent = sum;
         num1 = sum;
@@ -251,7 +251,7 @@ function chainCalc() {
     num2 = parseFloat(display.textContent)
     operate(num1,operator,num2);
     if(sum == Infinity){
-        display.textContent = "Very funny! Go do some real maths";
+        display.textContent = "∞ is not a real number!";
     }else
     display.textContent = sum;
     num1 = sum;

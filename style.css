@@ -45,9 +45,25 @@ color: white;
 transition: all 0.3s ease 0s;
 }
 
-.botton:hover{
+.button:hover{
 background-color:#726331;
-transform: translateY(-7px);
+transform: translateY(-2px);
+}
+
+.buttonSelected{
+border-radius: 0.8em;
+border: none;
+font-size: 150%;
+height: 2em;
+width: 2em;
+background-color: #34623F;
+color: black;
+box-shadow: -2px 2px 4px #34623F;
+transition: all 0.3s ease 0s;
+}
+.buttonSelected:hover{
+    background-color:#726331;
+    transform: translateY(-2px);
 }
 
 #equalsButton{
